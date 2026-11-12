@@ -1,0 +1,32 @@
+[
+  {
+    "version": "initial_improvement",
+    "file": "eventkv_config.py",
+    "source_sha256": "68fbecb8db2e48a5a67b3bf487c4f8017e893c0122dc4d49596e3aaef054fdda"
+  },
+  {
+    "version": "initial_improvement",
+    "file": "eventkv_memory.py",
+    "source_sha256": "84f84757af4816893e99dfdd915660900d70a32ab9826e0dbb473c8e3f8b7d59"
+  },
+  {
+    "version": "initial_improvement",
+    "file": "eventkv_gpu.py",
+    "source_sha256": "455bf7fe0151ba9da748d67942287814adaa7367a9610e3a6fae0914bb5ecc88"
+  },
+  {
+    "version": "latest",
+    "file": "eventkv_config.py",
+    "source_sha256": "97c7161ceac9f9b6c1c01d48074d07018b756c8146530e5fbf1cda21ee389894"
+  },
+  {
+    "version": "latest",
+    "file": "eventkv_memory.py",
+    "source_sha256": "894aa68f1c540372c69a1fe1ce1e14bf5d097dd199803061e5c1411ca1bddbc9"
+  },
+  {
+    "version": "latest",
+    "file": "eventkv_gpu.py",
+    "source_sha256": "587d6ab88eecb779da6a3e7a57086f70be1e5582a535db154d9ccc715b63e174"
+  }
+]

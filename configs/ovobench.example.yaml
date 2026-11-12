@@ -1,0 +1,3 @@
+benchmark: ovobench
+annotation: data/OVO-Bench/ovo_bench_new.json
+chunked_dir: data/OVO-Bench/chunked_videos

@@ -1,0 +1,29 @@
+version: initial_improvement
+model_path: Qwen/Qwen2.5-VL-7B-Instruct
+inference:
+  sample_fps: 0.5
+  frames_per_turn: 2
+  max_side: 336
+  attn_implementation: flash_attention_2
+eventkv:
+  recent_budget: 50
+  recent_fallback_budget: 400
+  event_budget: 400
+  text_budget: 2000
+  kv_budget: 1000
+  event_window: 8
+  min_event_frames: 2
+  short_merge_rounds: 1
+  similarity_weight: 0.4
+  time_weight: 0.2
+  merge_weight: 0.4
+  summary_cost_threshold: 0.3
+  query_window: 32
+  v2v_layer: null
+  summary_max_new_tokens: 64
+  novelty_reference: recent_mean
+  novelty_reference_chunks: 4
+  w_n: 0.3
+  w_d: 0.4
+  w_a: 0.3
+  event_text_max_tokens: 100

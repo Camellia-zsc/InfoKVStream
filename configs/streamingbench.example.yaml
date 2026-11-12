@@ -1,0 +1,10 @@
+benchmark: streamingbench
+video_root: data/StreamingBench
+context_mode: full_prefix
+input_modality: visual_only
+annotations:
+  real_time_visual_understanding: data/StreamingBench/StreamingBench/Real_Time_Visual_Understanding.csv
+  # Add the corresponding official CSV paths when needed:
+  # contextual_understanding: data/StreamingBench/StreamingBench/Contextual_Understanding.csv
+  # omni_source_understanding: data/StreamingBench/StreamingBench/Omni_Source_Understanding.csv
+  # sequential_question_answering: data/StreamingBench/StreamingBench/Sequential_Question_Answering.csv

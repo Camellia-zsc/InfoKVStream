@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "infokvstream-eventkv"
+version = "0.1.0"
+description = "Two StreamForest-inspired EventKV memory versions for Qwen2.5-VL"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.5,<2.6", "transformers==4.57.3", "accelerate>=1.0", "numpy>=1.26", "Pillow>=10", "opencv-python-headless>=4.10", "PyYAML>=6"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+eventkv-evaluate = "eventkv.evaluate:main"
+
+[tool.setuptools.packages.find]
+include = ["eventkv*", "versions*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
